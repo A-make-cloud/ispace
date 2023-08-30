@@ -1,0 +1,490 @@
+/*
+    position: 
+        - absolute
+        - fixed
+        - relative
+        - static
+        - sticky
+*/
+
+.p-rel {
+    position: relative;
+}
+
+/* me doit etre appliqué que sur des enfant d'element en position relative */
+.p-abs {
+    position: absolute;
+}
+
+.p-fix {
+    position: fixed;
+}
+
+/*
+    display
+*/
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-none {
+    display: none;
+}
+
+/*
+    align-items : 
+        - center
+        - baseline
+        - flex-end
+        - flex-start
+        - stretch
+        - inherit
+        - initial
+        - unset
+*/
+.align-center {
+    align-items: center;
+}
+
+.align-baseline {
+    align-items: baseline;
+}
+
+.align-start {
+    align-items: start;
+}
+
+/* 
+    justify-content: 
+        - baseline
+        - center
+        - end
+        - first-baseline
+        - flex-end
+        - flex-start
+        - last-baseline
+        - left
+        - right
+        - safe
+        - space-around
+        - space-between
+        - space-envenly
+        - start
+        - stretch
+        - inherit
+        - initial
+        - unset
+*/
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-b {
+    justify-content: space-between;
+}
+
+.justify-space-a {
+    justify-content: space-around;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+/* 
+    flex-direction: 
+        - column
+        - column-reverse
+        - row
+        - row-reverse
+        - inherit
+        - initial
+        - unset
+
+*/
+.flex-direction-row {
+    flex-direction: row;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+/* 
+    flex-wrap:
+        - no-wrap
+        - wrap
+        - wrap-reverse
+        - inherit
+        - initial
+        - unset
+*/
+.flex-wrap-wrap {
+    flex-wrap: wrap;
+}
+
+/* 
+    margin top left bottom right
+*/
+.margin-a {
+    margin: auto;
+}
+
+.margin-5 {
+    margin: 5px
+}
+
+.margin-10 {
+    margin: 10px;
+}
+
+.margin-15 {
+    margin: 15px;
+}
+
+.margin-20 {
+    margin: 20px;
+}
+
+/*
+    margin-y
+*/
+.margin-y-5 {
+    margin: 5px 0
+}
+
+.margin-y-10 {
+    margin: 10px 0
+}
+
+.margin-y-15 {
+    margin: 15px 0
+}
+
+.margin-y-20 {
+    margin: 20px 0
+}
+
+/* 
+    margin-x
+*/
+.margin-x-5 {
+    margin: 0 5px;
+}
+
+.margin-x-10 {
+    margin: 0 10px;
+}
+
+.margin-x-15 {
+    margin: 0 15px;
+}
+
+.margin-x-20 {
+    margin: 0 20px;
+}
+
+.margin-ri-10 {
+    margin-right: 10px;
+}
+
+/* 
+    padding top left bottom right
+*/
+.padding-5 {
+    padding: 5px
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.padding-15 {
+    padding: 15px;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+/*
+    padding-y
+*/
+.padding-y-5 {
+    padding: 5px 0
+}
+
+.padding-y-10 {
+    padding: 10px 0
+}
+
+.padding-y-15 {
+    padding: 15px 0
+}
+
+.padding-y-20 {
+    padding: 20px 0
+}
+
+/* 
+    padding-x
+*/
+.padding-x-5 {
+    padding: 0 5px;
+}
+
+.padding-x-10 {
+    padding: 0 10px;
+}
+
+.padding-x-15 {
+    padding: 0 15px;
+}
+
+.padding-x-20 {
+    padding: 0 20px;
+}
+
+/* 
+    gap
+*/
+.gap-5 {
+    gap: 5px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-15 {
+    gap: 15px
+}
+
+.gap-20 {
+    gap: 20px
+}
+
+
+/* 
+    gap-y
+*/
+.gap-y-5 {
+    gap: 5px 0;
+}
+
+.gap-y-10 {
+    gap: 10px 0;
+}
+
+.gap-y-15 {
+    gap: 15px 0;
+}
+
+.gap-y-20 {
+    gap: 20px 0;
+}
+
+/* 
+    gap-x
+*/
+.gap-x-5 {
+    gap: 0 5px;
+}
+
+.gap-x-10 {
+    gap: 0 10px;
+}
+
+.gap-x-15 {
+    gap: 0 15px;
+}
+
+.gap-x-20 {
+    gap: 0 20px;
+}
+
+/*
+    border-radius
+*/
+.radius-5 {
+    border-radius: 5px;
+}
+
+.radius-10 {
+    border-radius: 10px;
+}
+
+.radius-15 {
+    border-radius: 15px;
+}
+
+.radius-20 {
+    border-radius: 20px;
+}
+
+.radius-25 {
+    border-radius: 25px;
+}
+
+.radius-30 {
+    border-radius: 30px;
+}
+
+.radius-35 {
+    border-radius: 35px;
+}
+
+.radius-40 {
+    border-radius: 40px;
+}
+
+.radius-45 {
+    border-radius: 45px;
+}
+
+.radius-50 {
+    border-radius: 50px;
+}
+
+/*
+    float
+*/
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+/* 
+    TEXT
+*/
+
+/* 
+    text-align
+*/
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* 
+    font-weight
+*/
+.weight-100 {
+    font-weight: 100;
+}
+
+.weight-200 {
+    font-weight: 200;
+}
+
+.weight-300 {
+    font-weight: 300;
+}
+
+.weight-400 {
+    font-weight: 400;
+}
+
+.weight-500 {
+    font-weight: 500;
+}
+
+.weight-600 {
+    font-weight: 600;
+}
+
+.weight-700 {
+    font-weight: 700;
+}
+
+.weight-800 {
+    font-weight: 800;
+}
+
+.weight-900 {
+    font-weight: 900;
+}
+
+.weight-normal {
+    font-weight: normal;
+}
+
+/* 
+    font-size
+*/
+.font-size-small {
+    font-size: 0.75em
+}
+
+.font-size-normal {
+    font-size: 1em
+}
+
+.font-size-tall {
+    font-size: 1.25em
+}
+
+.font-size-tallest {
+    font-size: 1.50em
+}
+
+.font-size-big {
+    font-size: 1.75em
+}
+
+.font-size-bigger {
+    font-size: 2em;
+}
+
+.font-size-bigger-big {
+    font-size: 3em;
+}
+
+/* 
+    text-transform
+*/
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}

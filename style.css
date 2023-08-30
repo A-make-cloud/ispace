@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/bg.png);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.bcg-white {
+    background-color: white;
+}
+
+p {
+    color: #555555;
+
+}
+
+/*  HEADER  */
+header {
+    padding: 12px 0 39px 0;
+}
+
+nav {
+    width: max-content;
+    margin-left: 72px;
+}
+
+@font-face {
+    font-family: "News Cycle";
+    src: url("/News_Cycle/NewsCycle-Bold.ttf") format("ttf"),
+        url("/News_Cycle/NewsCycle-Regular.ttf") format("ttf");
+}
+
+nav,
+h2,
+h5 {
+    font-family: 'NewsCycle-Bold';
+}
+
+nav a:hover {
+    background-color: #662F32;
+    color: white;
+}
+
+nav a {
+    color: #6B625E;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: normal;
+    display: none;
+}
+
+.logo {
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 98px;
+}
+
+.baniere {
+    width: 60vw;
+    margin: auto;
+}
+
+.baniere img {
+    width: 60vw;
+}
+
+figure img {
+    width: 268px;
+}
+
+figcaption {
+    width: 268px;
+}
+
+.bloc p {
+    width: 268px;
+}
+
+.btn-plus {
+    border: none;
+    bottom: 4px;
+    width: 30px;
+    height: 30px;
+    right: 2px;
+}
+
+/* GRID */
+.contain {
+    width: 60vw;
+
+    margin: auto;
+    padding-top: 40px;
+    margin-top: -5px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "item2 item2 item2" "item3 item3 item3";
+}
+
+/* .item1{grid-area: item1;} */
+.item2 {
+    grid-area: item2;
+    grid-gap: 25px;
+    margin-left: 30px;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.item4 {
+    width: 60vw;
+}
+
+
+
+/* ITEM 2*/
+.padding-35-0-130-10 {
+    /* padding: 35px 0px 130px 10px; */
+    padding: 35px 0px 30px 10px;
+}
+
+.margin-ri-16 {
+    margin-right: 16px;
+}
+
+.margin-le-30 {
+    margin-left: 30px;
+}
+
+.margin-le-10 {
+    margin-left: 10px;
+}
+
+.margin-le-53 {
+    margin-left: 53px;
+}
+
+.padding-top-30 {
+    padding-top: 30px;
+}
+
+.padding-b-70 {
+    padding-bottom: 70px;
+}
+
+.padding-5-0-51-50 {
+    padding: 5px 0px 51px 50px;
+}
+
+.bcg-purple {
+    background-color: #662F32;
+}
+
+.color-purple {
+    color: #662F32;
+}
+
+.margin-t-30 {
+    margin-top: 30px;
+}
+
+.margin-b-10 {
+    margin-bottom: 10px;
+}
+
+.color-gris {
+    color: #555555;
+}
+
+.bcg-gris {
+    background-color: #6B625E;
+}
+
+.color-white {
+    color: white;
+}
+
+.plus {
+    background-image: url(img/plus_btn_h.png);
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 30px;
+
+}
+
+.top-476 {
+    top: 476px;
+}
+
+.left-255 {
+    left: 255px;
+}
+
+.plus:hover {
+    background-image: url(img/plus_btn.png);
+    background-repeat: no-repeat;
+}
+
+/* ITEM 3*/
+ul {
+    list-style-image: url(img/arrow.png);
+}
+
+.bouton:hover {
+    background-color: #662F32;
+}
+
+.sous-item3 a input {
+    border: none;
+}
+
+/*ITEM 4  FOOTER*/
+footer {
+    border-top: 2px solid #555555;
+    padding: 36px 51px 43px 56px;
+}
+
+.reseau {
+    align-items: center;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fb {
+    background-image: url(img/reseaux.png);
+    background-repeat: no-repeat;
+    width: 33px;
+    height: 33px;
+    background-position: 3px 3px;
+    border-radius: 14px;
+    padding: 10px;
+}
+
+.tw {
+    background-image: url(img/reseaux.png);
+    background-repeat: no-repeat;
+    width: 33px;
+    height: 33px;
+    background-position: -31px 2px;
+    border-radius: 14px;
+    padding: 10px;
+}
+
+.gl {
+    background-image: url(img/reseaux.png);
+    background-repeat: no-repeat;
+    width: 33px;
+    height: 33px;
+    background-position: -65px 1px;
+    border-radius: 14px;
+    padding: 10px;
+}
+
+@media screen and (min-width:992px) {
+    nav {
+        /* display: flex; */
+    }
+
+    .contain {
+        width: 1024px;
+        margin: auto;
+        padding-top: 40px;
+        margin-top: -5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "item2 item2 item2" "item3 item3 item3" "item4 item4 item4";
+    }
+
+
+
+    .item2,
+    .item3,
+    .item4 {
+        display: flex;
+        width: 60vw;
+    }
+
+}
